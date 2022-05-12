@@ -1,13 +1,16 @@
-import React from "react";
 
+import Navigation from "./components/Navigation.js";
+import Cards from "./components/Cards.js";
+import Footer from "./components/Footer.js";
 
 function App() {
    return (
       <>
-         <h1>Navigation</h1>
-         <h2>Cards</h2>
-         <h2>Footer</h2>
+         <Navigation />
+         <Cards />
+         <Footer />
       </>
    );
 }
+
 export default App;

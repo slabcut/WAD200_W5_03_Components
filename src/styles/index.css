@@ -1,10 +1,9 @@
-
-*{
-   margin:0px;
+* {
+   margin: 0px;
    box-sizing: border-box;
 }
 
-h1{
-   font-family: helvetica;
-   color:lightcoral;
+body {
+   background-color: azure;
+   padding-top: 5px;
 }
